@@ -1,5 +1,6 @@
 # Sonos Plugin for Elgato Stream Deck
 Plugin which allows to control `Sonos` speakers and get live feedback.
+Forked from the original plugin from https://github.com/GenericMale/streamdeck-sonos
 
 ![](screenshot.png)
 
@@ -26,9 +27,9 @@ The IP address of the speaker to control has to be entered manually but the IP c
 The plugin has to poll for status changes.
 
 # Installation
-Download the plugin from the [Releases](https://github.com/GenericMale/streamdeck-sonos/releases/) section.
+Download releases from  from the [Releases](https://github.com/moonbeamalpha/streamdeck-sonos/releases/) section.
 
-If you double-click the `com.genericmale.sonos.streamDeckPlugin` file on your machine, Stream Deck will install the plugin.
+If you double-click the `com.moonbeamalpha.streamdeck-sonos-v2.streamDeckPlugin` file on your machine, Stream Deck will install the plugin.
 
 # Development
 To generate the installation package, download the DistributionTool from the 
