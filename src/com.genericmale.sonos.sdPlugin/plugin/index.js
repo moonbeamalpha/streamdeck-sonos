@@ -91,11 +91,20 @@ class PollingAction extends SonosAction {
         }
 
         if (this.sonos.isConnected()) {
-            this.refresh().then(() => {
-                if (this.interval > 0) {
-                    this.timer = setTimeout(() => this.startPolling(), this.interval * 1000);
-                }
-            });
+            this.refresh()
+                .then(() => {
+                    if (this.interval > 0) {
+                        this.timer = setTimeout(() => this.startPolling(), this.interval * 1000);
+                    }
+                })
+                .catch((error) => {
+                    console.error('Polling refresh error:', error);
+                    this.streamDeck.logMessage(`Polling error: ${error.message || error}`);
+                    // Continue polling despite error
+                    if (this.interval > 0) {
+                        this.timer = setTimeout(() => this.startPolling(), this.interval * 1000);
+                    }
+                });
         } else if (this.interval > 0) {
             this.timer = setTimeout(() => this.startPolling(), this.interval * 1000);
         }

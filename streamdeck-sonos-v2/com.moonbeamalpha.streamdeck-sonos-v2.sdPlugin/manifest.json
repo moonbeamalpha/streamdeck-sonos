@@ -1,0 +1,215 @@
+{
+	"Name": "Sonos Control",
+	"Version": "0.1.0.0",
+	"Author": "moonbeamalpha",
+	"Actions": [
+		{
+			"Name": "Play / Pause",
+			"UUID": "com.moonbeamalpha.streamdeck-sonos-v2.playpause",
+			"Icon": "images/playpause_action",
+			"Tooltip": "Play and pause the audio and display playback info.",
+			"Controllers": [
+				"Keypad"
+			],
+			"States": [
+				{
+					"Image": "images/paused_key"
+				},
+				{
+					"Image": "images/playing_key"
+				}
+			]
+		},
+		{
+			"Name": "Previous Song",
+			"UUID": "com.moonbeamalpha.streamdeck-sonos-v2.previous",
+			"Icon": "images/previous_action",
+			"Tooltip": "Go back to the previous song in queue.",
+			"Controllers": [
+				"Keypad"
+			],
+			"States": [
+				{
+					"Image": "images/previous_key"
+				}
+			]
+		},
+		{
+			"Name": "Next Song",
+			"UUID": "com.moonbeamalpha.streamdeck-sonos-v2.next",
+			"Icon": "images/next_action",
+			"Tooltip": "Go to next song in queue.",
+			"Controllers": [
+				"Keypad"
+			],
+			"States": [
+				{
+					"Image": "images/next_key"
+				}
+			]
+		},
+		{
+			"Name": "Volume Mute / Unmute",
+			"UUID": "com.moonbeamalpha.streamdeck-sonos-v2.mute",
+			"Icon": "images/mute_action",
+			"Tooltip": "Mute and unmute the audio.",
+			"Controllers": [
+				"Keypad"
+			],
+			"States": [
+				{
+					"Image": "images/unmuted_key"
+				},
+				{
+					"Image": "images/muted_key"
+				}
+			]
+		},
+		{
+			"Name": "Volume Up",
+			"UUID": "com.moonbeamalpha.streamdeck-sonos-v2.volumeup",
+			"Icon": "images/volumeup_action",
+			"Tooltip": "Increase the volume.",
+			"Controllers": [
+				"Keypad"
+			],
+			"States": [
+				{
+					"Image": "images/volumeup_key"
+				}
+			]
+		},
+		{
+			"Name": "Volume Down",
+			"UUID": "com.moonbeamalpha.streamdeck-sonos-v2.volumedown",
+			"Icon": "images/volumedown_action",
+			"Tooltip": "Decrease the volume.",
+			"Controllers": [
+				"Keypad"
+			],
+			"States": [
+				{
+					"Image": "images/volumedown_key"
+				}
+			]
+		},
+		{
+			"Name": "Volume Set",
+			"UUID": "com.moonbeamalpha.streamdeck-sonos-v2.volume",
+			"Icon": "images/volume_action",
+			"Tooltip": "Change the volume to a fixed value.",
+			"Controllers": [
+				"Keypad"
+			],
+			"States": [
+				{
+					"Image": "images/volume_key"
+				}
+			]
+		},
+		{
+			"Name": "Repeat Mode",
+			"UUID": "com.moonbeamalpha.streamdeck-sonos-v2.repeat",
+			"Icon": "images/repeat_action",
+			"Tooltip": "Toggle the repeat mode.",
+			"Controllers": [
+				"Keypad"
+			],
+			"States": [
+				{
+					"Image": "images/repeat_none_key"
+				},
+				{
+					"Image": "images/repeat_all_key"
+				},
+				{
+					"Image": "images/repeat_one_key"
+				}
+			]
+		},
+		{
+			"Name": "Shuffle Mode",
+			"UUID": "com.moonbeamalpha.streamdeck-sonos-v2.shuffle",
+			"Icon": "images/shuffle_action",
+			"Tooltip": "Toggle the shuffle mode.",
+			"Controllers": [
+				"Keypad"
+			],
+			"States": [
+				{
+					"Image": "images/shuffle_off_key"
+				},
+				{
+					"Image": "images/shuffle_on_key"
+				}
+			]
+		},
+		{
+			"Name": "Change Source",
+			"UUID": "com.moonbeamalpha.streamdeck-sonos-v2.changesource",
+			"Icon": "images/changesource_action",
+			"Tooltip": "Change the playback source (TV, LineIn, Queue).",
+			"Controllers": [
+				"Keypad"
+			],
+			"States": [
+				{
+					"Image": "images/changesource_key"
+				}
+			]
+		},
+		{
+			"Name": "Play URL",
+			"UUID": "com.moonbeamalpha.streamdeck-sonos-v2.playuri",
+			"Icon": "images/playuri_action",
+			"Tooltip": "Play a song, album, playlist or radio station with a URL from Spotify, TuneIn, Tidal, Deezer or Apple Music.",
+			"Controllers": [
+				"Keypad"
+			],
+			"States": [
+				{
+					"Image": "images/playuri_key"
+				}
+			]
+		},
+		{
+			"Name": "Play Favorites",
+			"UUID": "com.moonbeamalpha.streamdeck-sonos-v2.playfavorites",
+			"Icon": "images/playfavorites_action",
+			"Tooltip": "Play one of the favorites added in the Sonos app.",
+			"Controllers": [
+				"Keypad"
+			],
+			"States": [
+				{
+					"Image": "images/playfavorites_key"
+				}
+			]
+		}
+	],
+	"Category": "Sonos Control",
+	"CategoryIcon": "images/plugin_category",
+	"CodePath": "bin/plugin.js",
+	"PropertyInspectorPath": "pi/index.html",
+	"Description": "A Sonos plugin for streamdeck",
+	"Icon": "imgs/plugin/marketplace",
+	"SDKVersion": 2,
+	"Software": {
+		"MinimumVersion": "6.7"
+	},
+	"OS": [
+		{
+			"Platform": "mac",
+			"MinimumVersion": "12"
+		},
+		{
+			"Platform": "windows",
+			"MinimumVersion": "10"
+		}
+	],
+	"Nodejs": {
+		"Version": "20",
+		"Debug": "enabled"
+	},
+	"UUID": "com.moonbeamalpha.streamdeck-sonos-v2"
+}

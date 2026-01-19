@@ -1,0 +1,22 @@
+{
+	"extends": "@tsconfig/node20/tsconfig.json",
+	"compilerOptions": {
+		"customConditions": [
+			"node"
+		],
+		"module": "ES2022",
+		"moduleResolution": "Bundler",
+		"noImplicitOverride": true,
+		"allowJs": true,
+		"checkJs": false,
+		"noEmit": true,
+		"outDir": "com.moonbeamalpha.streamdeck-sonos-v2.sdPlugin/bin"
+	},
+	"include": [
+		"src/**/*.ts",
+		"src/**/*.js"
+	],
+	"exclude": [
+		"node_modules"
+	]
+}

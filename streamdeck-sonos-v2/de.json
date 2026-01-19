@@ -1,0 +1,88 @@
+{
+  "Description": "Steuere deine Sonos Lautsprecher.",
+  "Name": "Sonos",
+  "Category": "Sonos",
+  "Localization": {
+    "Speaker IP": "Lautsprecher IP",
+    "Speaker Port": "Lautsprecher Port",
+    "Target Group": "Zielgruppe",
+    "Auto (Speaker Group)": "Auto (Lautsprechergruppe)",
+    "Obtaining Speaker IP Address": "Lautsprecher IP feststellen",
+    "Sonos Desktop App": "Sonos Desktop App",
+    "Help -> About My Sonos System...": "Hilfe -> Über mein Sonos System...",
+    "Sonos Mobile App": "Sonos Handy App",
+    "Settings -> System -> About My System": "Einstellungen -> System -> Über mein System",
+    "Supported Music Services": "Unterstutzte Musikdienste",
+    "Volume": "Lautstärke",
+    "Volume Increase": "Lautstärke Erhöhen",
+    "Volume Decrease": "Lautstärke Verringern",
+    "URL": "URL",
+    "Source": "Quelle",
+    "TV": "TV",
+    "Line In": "Line In",
+    "Sonos Queue": "Sonos Warteschlange",
+    "Favorite": "Favorit",
+    "Album Art": "Album",
+    "Display on key": "Auf Taste zeigen",
+    "Play": "Abspielen",
+    "Top Text": "Text Oben",
+    "Middle Text": "Text Mitte",
+    "Bottom Text": "Text Unten",
+    "None": "Nichts",
+    "Artist": "Künstler",
+    "Title": "Titel",
+    "Duration": "Dauer",
+    "Elapsed": "Vergangen",
+    "Remaining": "Verbleibend",
+    "Paused Text": "Pausieren Text"
+  },
+
+  "com.moonbeamalpha.streamdeck-sonos-v2.playpause": {
+    "Name": "Abspielen / Stoppen",
+    "Tooltip": "Wiedergabe starten / stoppen und Wiedergabeinformationen anzeigen."
+  },
+  "com.moonbeamalpha.streamdeck-sonos-v2.previous": {
+    "Name": "Zurück",
+    "Tooltip": "Zum vorherigen Lied in der Wartscheschlange springen."
+  },
+  "com.moonbeamalpha.streamdeck-sonos-v2.next": {
+    "Name": "Weiter",
+    "Tooltip": "Zum nächsten Lied in der Wartscheschlange springen."
+  },
+  "com.moonbeamalpha.streamdeck-sonos-v2.changesource": {
+    "Name": "Quelle ändern",
+    "Tooltip": "Die Wiedergabequelle (TV, Line In, Warteschlange) ändern."
+  },
+  "com.moonbeamalpha.streamdeck-sonos-v2.playuri": {
+    "Name": "URL wiedergeben",
+    "Tooltip": "Ein Lied, Album, Playlist oder Radio Station mit einer URL von Spotify, TuneIn, Tidal, Deezer oder Apple Music abspielen."
+  },
+  "com.moonbeamalpha.streamdeck-sonos-v2.playfavorites": {
+    "Name": "Favoriten wiedergeben",
+    "Tooltip": "Play one of the favorites added in the Sonos app."
+  },
+  "com.moonbeamalpha.streamdeck-sonos-v2.repeat": {
+    "Name": "Wiederholungsmodus",
+    "Tooltip": "Den Wiederholungsmodus umschalten."
+  },
+  "com.moonbeamalpha.streamdeck-sonos-v2.shuffle": {
+    "Name": "Zufällige Wiedergabe",
+    "Tooltip": "Die zufällige Wiedergabe umschalten."
+  },
+  "com.moonbeamalpha.streamdeck-sonos-v2.volumeup": {
+    "Name": "Lautstärke erhöhen",
+    "Tooltip": "Die Lautstärke erhöhen."
+  },
+  "com.moonbeamalpha.streamdeck-sonos-v2.volumedown": {
+    "Name": "Lautstärke verringern",
+    "Tooltip": "Die Lautstärke verringern."
+  },
+  "com.moonbeamalpha.streamdeck-sonos-v2.mute": {
+    "Name": "Stummschalten",
+    "Tooltip": "Die Stummschaltung des Tons umschalten."
+  },
+  "com.moonbeamalpha.streamdeck-sonos-v2.volume": {
+    "Name": "Lautstärke setzen",
+    "Tooltip": "Die Lautstärke auf einen fixen Wert ändern."
+  }
+}
