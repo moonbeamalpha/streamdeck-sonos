@@ -14,13 +14,14 @@ Forked from the original plugin from https://github.com/GenericMale/streamdeck-s
 - Play Sonos Favorites
 - Change Repeat & Shuffle Mode
 - Change Volume
+- NEW - Speakers in the same group are automatically detected and controlled.
 
 # Limitations
 The plugin is written in JavaScript which makes it Cross-Platform compatible and can be trusted to not perform anything dangerous.  
 
 However, this also comes with some limitations:
 - Speaker Auto Discovery cannot be performed.  
-The IP address of the speaker to control has to be entered manually but the IP can be easily retrieved from the Sonos App.
+The IP address of one of the speakers in a group to control has to be entered manually but the IP can be easily retrieved from the Sonos App. 
 - Writing to Files not possible.
 - Accessing the clipboard not possible.
 - Can't listen to Push Notifications.  
