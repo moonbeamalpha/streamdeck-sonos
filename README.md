@@ -33,12 +33,10 @@ Download releases from  from the [Releases](https://github.com/moonbeamalpha/str
 If you double-click the `com.moonbeamalpha.streamdeck-sonos-v2.streamDeckPlugin` file on your machine, Stream Deck will install the plugin.
 
 # Development
-To generate the installation package, download the DistributionTool from the 
-[Elgato Developer Documentation](https://developer.elgato.com/documentation/stream-deck/sdk/packaging/)
-and run it in the project root folder:
-```
-.\DistributionTool.exe -b -i src\com.genericmale.sonos.sdPlugin -o release
-```
+This fork was vibe-coded using Claude Sonnet 4.5 and ChatGPT 5.2 Codex.
+
+To generate the installation package, see the 
+[Elgato SDK 2.0.0 developer documentation](https://docs.elgato.com/streamdeck/sdk/introduction/getting-started).
 
 A simple [bash script](generateImages.sh) is provided to generate all the images.  
 The script requires ImageMagick to be installed and uses the [Material Design Icons](https://github.com/marella/material-design-icons).
