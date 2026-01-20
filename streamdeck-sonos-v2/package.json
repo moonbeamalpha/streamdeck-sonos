@@ -1,5 +1,7 @@
 {
     "scripts": {
+        "copy-assets": "cp -r pi/ com.moonbeamalpha.streamdeck-sonos-v2.sdPlugin/pi/ && cp -r images/ com.moonbeamalpha.streamdeck-sonos-v2.sdPlugin/images/ && cp de.json com.moonbeamalpha.streamdeck-sonos-v2.sdPlugin/ && cp en.json com.moonbeamalpha.streamdeck-sonos-v2.sdPlugin/",
+        "prebuild": "npm run copy-assets",
         "build": "rollup -c",
         "watch": "rollup -c -w --watch.onEnd=\"streamdeck restart com.moonbeamalpha.streamdeck-sonos-v2\"",
         "pack": "npm run build && streamdeck pack com.moonbeamalpha.streamdeck-sonos-v2.sdPlugin --force",

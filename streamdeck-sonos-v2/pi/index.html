@@ -29,6 +29,18 @@
         </div>
 
         <div class="sdpi-item">
+            <div class="sdpi-item-label" data-localize>Speaker Port</div>
+            <input class="sdpi-item-value" name="port" type="number" min="1" max="65535" value="1400"/>
+        </div>
+
+        <div class="sdpi-item">
+            <div class="sdpi-item-label" data-localize>Target Group</div>
+            <select id="target-group" class="sdpi-item-value select" name="targetGroup">
+                <option value="" data-localize>Auto (Speaker Group)</option>
+            </select>
+        </div>
+
+        <div class="sdpi-item">
             <details class="message info">
                 <summary data-localize>Obtaining Speaker IP Address</summary>
                 <h4 data-localize>Sonos Desktop App</h4>
@@ -42,10 +54,6 @@
     <hr>
 
     <form id="settings">
-        <div class="sdpi-item" data-actions="mute,playpause,repeat,shuffle">
-            <div class="sdpi-item-label" data-localize>Refresh Interval</div>
-            <input class="sdpi-item-value" name="refreshInterval" type="number" value="1"/>
-        </div>
 
         <div class="sdpi-item" data-actions="volume">
             <div class="sdpi-item-label" data-localize>Volume</div>
@@ -160,8 +168,6 @@
     </form>
 </div>
 
-<script src="../stream-deck.js"></script>
-<script src="../sonos.js"></script>
 <script src="form-utils.js"></script>
 <script src="index.js"></script>
 </body>
